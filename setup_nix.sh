@@ -1,4 +1,4 @@
 #!/bin/bash
 
-THISDIR=$(dirname $0)
-ln -s $THISDIR/.emacs.d ~/.emacs.d
+THISDIR=$(dirname "$PWD/$0")
+ln -s $THISDIR/.emacs.d $HOME/.emacs.d
